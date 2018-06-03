@@ -1,0 +1,100 @@
+.app {
+  display: flex;
+}
+
+i {
+  margin-right: 0.2rem;
+}
+
+/*Filters*/
+.filters {
+  border-right: 1px solid #c3c3c3;
+  cursor: pointer;
+  height: 100vh;
+  padding-left: 1.5rem;
+  width: 15rem;
+}
+
+.filter {
+  margin-top: 1.5rem;
+}
+
+.filter--selected .filter-name {
+  text-decoration: underline;
+}
+
+.sub-filters {
+  margin-left: 2rem;
+}
+
+.sub-filter {
+  margin-top: 0.5rem;
+}
+
+.sub-filter--selected .sub-filter-name {
+  text-decoration: underline;
+}
+
+
+/*List*/
+.list {
+  flex: 1;
+}
+
+
+/*Character*/
+.character {
+  border-bottom: 1px solid #d2d2d2;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.character--dead {
+  opacity: 0.3;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+.character--dead:hover {
+  opacity: 1;
+}
+
+.character-left {
+  flex: 1;
+}
+
+.character-right {
+  align-items: center;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.character-names {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.character-name {
+  font-size: 1.5rem;
+}
+
+.character-nick {
+  margin-left: 0.5rem;
+}
+
+.character-family {
+  margin-bottom: 1rem;
+}
+
+.character-image {
+  height: 8rem;
+  width: 8rem;
+}
+
+.character-detail {
+  margin-bottom: 0.5rem;
+}
